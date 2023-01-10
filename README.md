@@ -22,13 +22,13 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 ### Screenshot
 
 #### Mobile Design
-![](./doc/screenshots/screenshot-mobile.png)
+![](./docs/screenshots/screenshot-mobile.png)
 
 #### Desktop Design
-![](./doc/screenshots/screenshot-desktop.png)
+![](./docs/screenshots/screenshot-desktop.png)
 
 #### Status Active
-![](./doc/screenshots/screenshot-state-active.png)
+![](./docs/screenshots/screenshot-state-active.png)
 
 ### Links
 
