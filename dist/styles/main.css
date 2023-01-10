@@ -1,0 +1,88 @@
+@import url(./base.css);
+
+main {
+  max-width: 360px;
+  width: 100%;
+  background-color: var(--dark-blue-card-bg);
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: var(--box-shadow-card) 0px 19px 38px,
+    var(--box-shadow-card) 0px 15px 12px;
+}
+
+h1:hover {
+  color: #06ffff;
+}
+
+main .image img {
+  border-radius: 12px;
+  width: 100%;
+}
+
+main .image .blur {
+  background-color: hsla(180, 100%, 51%, 0.4);
+  border-radius: 12px;
+  display: grid;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  place-content: center;
+  position: absolute;
+  top: 0;
+  transition: all .7s ease;
+  width: 100%;
+}
+
+main .image .blur img {
+  width: 48px;
+}
+
+main .image .blur:hover {
+  opacity: 1;
+}
+
+.image {
+  position: relative;
+}
+
+.info {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info img {
+  margin-right: 5px;
+}
+
+.info div:first-child {
+  color: #06ffff;
+  font-weight: 400;
+}
+
+.info div {
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  align-items: center;
+  display: flex;
+}
+
+.author img {
+  border-radius: 50%;
+  border: 1px solid var(--white);
+  margin-right: 20px;
+  width: 36px;
+}
+
+.author span {
+  color: var(--white);
+  font-weight: 300;
+  transition: all .7s ease;
+}
+
+.author span:hover {
+  color: #06ffff;
+}
