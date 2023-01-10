@@ -8,6 +8,9 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [Screenshot](#screenshot)
+      - [Mobile Design](#mobile-design)
+      - [Desktop Design](#desktop-design)
+      - [Status Active](#status-active)
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
@@ -18,7 +21,14 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Screenshot
 
-![](./screenshot.jpg)
+#### Mobile Design
+![](./dist/screenshots/screenshot-mobile.png)
+
+#### Desktop Design
+![](./dist/screenshots/screenshot-desktop.png)
+
+#### Status Active
+![](./dist/screenshots/screenshot-state-active.png)
 
 ### Links
 
